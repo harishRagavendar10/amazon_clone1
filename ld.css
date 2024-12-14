@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: Outfit;
+}
+body{
+    background: #dadada;
+    padding-top: 101px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131921;
+    padding: 10px 10px;
+    color: #fff;
+    position: fixed; /* This makes the nav bar fixed */
+    top: 0; /* Positions it at the top of the viewport */
+    left: 0;
+    width: 100%; /* Makes sure it spans the full width */
+    z-index: 1000; 
+}
+
+.nav-country{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #c4c4c4; ;
+}
+
+.nav-country h1{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: gray;
+    max-width: 1000px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.nav-search-gategory{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 5px;
+    background: #e5e5e5;
+    border-radius: 4px 0 0;
+}
+
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.nav-sesrch-icon{
+    max-width: 41px;
+    padding: 8px;
+    background: #ffd64f;
+    border: 0 4px 4px 0;
+}
+
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.nav-text{
+   margin-left: 15px; 
+}
+.nav-text p{
+    font-size: 10px;
+}
+.nav-text h1{
+    font-size: 14px;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px ;
+}
+
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: #fff;
+    font-size: 15px;
+    position: fixed; /* Makes the bottom nav fixed */
+    top: 60px; /* Adjust based on the height of the main nav */
+    width: 100%;
+    z-index: 999;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+
+
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 20px;
+    margin-top: 15px;
+   
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 23%;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.brand {
+    font-weight: bold;
+    color: #007185;
+}
+
+.product-name {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.colors {
+    font-size: 12px;
+    color: #007185;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.bought-info {
+    font-size: 12px;
+    color: #565959;
+    margin-bottom: 10px;
+}
+
+.festival-badge, .options-button {
+    background-color: #e12d2d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b12704;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #565959;
+    margin-left: 10px;
+}
+
+.delivery {
+    font-size: 12px;
+    color: #007185;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #ffa41c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
+
+}

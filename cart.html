@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="./assets/amazon.jpeg"  type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="./assets/amazon_logo.png" width="100">
+        </a>
+        <div class="nav-country">
+            <img src="./assets/location_icon.png" height="20" alt="">
+            <div>
+                <p>Deliver to</p>
+                <h1>India</h1>
+            </div> 
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-gategory">
+                <p>All</p>
+                <img src="./assets/dropdown_icon.png" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Amazon">
+            <img src="./assets/search_icon.png" class="nav-sesrch-icon">
+        </div>
+        <div class="nav-language">
+            <img src="./assets/india.png" width="25px" alt="">
+            <p>IN</p>
+            <img src="./assets/dropdown_icon.png" width="8px" alt="">
+        </div>
+        <div class="nav-text">
+            <p>Hello, Sign in</p>
+            <h1>Account & Lists <img src="./assets/dropdown_icon.png" width="8px" alt=""></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>&Orders</h1>
+        </div>
+        <a href="cart.html" class="nav-cart">
+            <img src="./assets/cart-icon.png" width="35px" alt="">
+            <h4>Cart</h4>
+                <span class="cart-count" style="position: absolute; top: 9px; right: 65px; color: red;; padding: 2px 5px;">0</span>
+        </a>
+    </nav>
+
+    <div class="nav-bottom">
+        <div>
+            <img src="./assets/menu_icon.png" width="25px" alt="">
+            <p>All</p>
+        </div>
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+
+    <div class="cart">
+        <div class="cart-left">
+            <!-- Cart Items Will Be Injected Here Dynamically -->
+        </div>
+        <div class="cart-right">
+            <div class="cart-free-drlivery">
+                <p>&#x2705</p>
+                <p>Your order qualifies for Free Shipping. <b>Choose this option at checkout.</b> See Details.</p>
+            </div>
+            <p class="cart-subtotal">Subtotal (0 items): <b>$0.00</b></p>
+            <button>Proceed to checkout</button>
+        </div>
+    </div>
+        
+
+    <footer class="footer-cart">
+        <img src="./assets/amazon_logo.png" width="100" alt="">
+        <p>@1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>
